@@ -1,2 +1,2 @@
 # ChatGPT-for-Python
-### Langugage : EN | 中文
+### Langugage :  EN  |  [中文](https://markdown.com.cn)
