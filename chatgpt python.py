@@ -1,11 +1,11 @@
-#Developer is Vincent,this Project is ChatGPT for Python （中文版）
+#Developer is Vincent,this Project is ChatGPT for Python 
 import requests
 import json
 import time
 
-print("请输入您的问题")
+print("Please enter your question")
 history=[]
-# 进入对话循环
+# Entering a conversation loop
 while True:
     question=input("MeHel：")
     headers = {
@@ -24,12 +24,12 @@ while True:
     datas = response.json()
 
     message=datas["choices"][0]["message"]["content"]
-     # 将响应添加到对话历史中
+     # Add response to conversation history
     history.append(message)
 
-    # 打印响应
+    # Print Response
     print("ChatGPT:", message)
 
-    # 延迟一段时间，以避免频繁调用 API
+    # Delay for a period of time to avoid frequent API calls
     time.sleep(0.5)
     
