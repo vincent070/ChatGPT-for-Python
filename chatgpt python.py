@@ -10,7 +10,7 @@ while True:
     question=input("MeHel：")
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': f'Bearer ',
+        'Authorization': f'Bearer #APIKEY', #This is your APIKEY
     }   
 
     # Send request to GPT-3 API
