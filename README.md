@@ -1,2 +1,2 @@
 # ChatGPT-for-Python
-## Langugage/语言 : EN | 中文
+### Langugage : EN | 中文
